@@ -242,7 +242,7 @@
 <div class="container">
   <div class="card">
     <p-card header="List">
-      <b>Filter By : </b><input type="text" pInputText [(ngModel)]="searchedText" />
+      <app-filter [(filter)]="searchedText" />
       <app-demo [searchedText]="searchedText" />
     </p-card>
   </div>
